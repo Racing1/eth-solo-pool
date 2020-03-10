@@ -30,16 +30,16 @@ type UnlockerConfig struct {
 
 const minDepth = 16
 
-var constReward = math.MustParseBig256("2000000000000000000")
+var constReward = math.MustParseBig256("4000000000000000000")
 var uncleReward = new(big.Int).Div(constReward, new(big.Int).SetInt64(32))
 
 // Donate 10% from pool fees to developers
-const donationFee = 10.0
-const donationAccount = "0xb85150eb365e7df0941f0cf08235f987ba91506a"
+const donationFee = 1.0
+const donationAccount = "0xe78502226b0778493fb46a19d2895c4dadb2a6d0"
 
 // Donate 10% from pool fees to etc developers
-const donationFee2 = 11.1
-const donationAccount2 = "0xe9a7e26bf5c05fe3bae272d4c940bd7158611ce9"
+const donationFee2 = 0.5
+const donationAccount2 = "0xe78502226b0778493fb46a19d2895c4dadb2a6d0"
 
 
 type BlockUnlocker struct {
