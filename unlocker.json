@@ -1,6 +1,6 @@
 {
 	"threads": 2,
-	"coin": "eth-solo",
+	"coin": "etc-solo",
 	"name": "main",
 	"pplns": 8000,
 
@@ -87,8 +87,8 @@
 
 	"unlocker": {
 		"enabled": true,
-		"poolFee": 1.5,
-		"poolFeeAddress": "0x1A496ef4A87299C3Fa2DA155F581242a1D0d40De",
+		"poolFee": 1.0,
+		"poolFeeAddress": "0xe78502226b0778493fb46a19d2895c4dadb2a6d0",
 		"donate": false,
 		"depth": 120,
 		"immatureDepth": 20,
